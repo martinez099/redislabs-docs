@@ -90,7 +90,7 @@ After a database is migrated with slave HA, it cannot go through another slave m
 due to another node failure until the cooldown period for the database ends (Default: 24
 hours).
 
-To configure this grace period from rladmin, run:
+To configure this cooldown period from rladmin, run:
 
 - For the cluster:
 
